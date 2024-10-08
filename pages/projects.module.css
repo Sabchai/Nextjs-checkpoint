@@ -1,0 +1,44 @@
+.proyectosContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Altura mínima para centrar verticalmente */
+    background-color: #f0f0f0; /* Color de fondo suave */
+    padding: 20px;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    color: #132502; /* Color del título */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.listaProyectos {
+    list-style: none; /* Eliminar viñetas */
+    padding: 0;
+    max-width: 600px; /* Limitar el ancho de la lista */
+    width: 100%; /* Asegurarse de que ocupe todo el ancho permitido */
+}
+
+.proyectoItem {
+    background-color: #ffffff; /* Fondo blanco para los proyectos */
+    border: 1px solid #dcdcdc; /* Borde ligero */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px;
+    margin: 10px 0; /* Espaciado entre proyectos */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.nombreProyecto {
+    font-size: 1.8rem; /* Tamaño del nombre del proyecto */
+    color: #356142; /* Color del nombre del proyecto */
+    margin-bottom: 10px;
+}
+
+.descripcionProyecto {
+    font-size: 1rem; /* Tamaño del texto de descripción */
+    color: #7f8c8d; /* Color del texto de descripción */
+    line-height: 1.5; /* Espaciado entre líneas */
+}

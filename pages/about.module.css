@@ -1,0 +1,28 @@
+
+.about {
+    display: flex;
+    flex-direction: column; /* Organiza el contenido en columna */
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Usa toda la altura de la ventana */
+    background-color: #d3d893; /* Color de fondo suave */
+    color: #333; /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .h1 {
+    color: #411403; /* Color azul para el título */
+    margin-bottom: 20px; /* Espaciado debajo del título */
+  }
+
+  .p {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    margin: 10px 0; /* Espaciado vertical entre párrafos */
+    line-height: 1.6; /* Altura de línea para mejor legibilidad */
+  }
+  
+  
+  

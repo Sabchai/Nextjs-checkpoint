@@ -1,0 +1,82 @@
+
+
+/* Estilo para el título */
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    color: #2c3e50; /* Cambia el color según tu preferencia */
+    margin: 20px 0;
+    transition: color 0.3s; /* Efecto de transición para el hover */
+}
+
+.titulo:hover {
+    color: #3498db; /* Color al pasar el mouse */
+}
+
+/* Estilo para el formulario */
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centrar el formulario */
+    padding: 20px;
+    background-color: #e6e094; /* Fondo blanco para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+.contactForm div {
+    margin-bottom: 15px; /* Espacio entre los campos */
+    width: 100%; /* Asegurarse de que los inputs llenen el ancho */
+}
+
+.contactForm label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contactForm input, .contactForm textarea {
+    width: 100%; /* Campos llenan el ancho del formulario */
+    padding: 10px;
+    border: 1px solid #ccc; /* Borde de los inputs */
+    border-radius: 4px; /* Bordes redondeados para los inputs */
+    transition: border-color 0.3s; /* Efecto de transición para el borde */
+}
+
+.contactForm input:focus, .contactForm textarea:focus {
+    border-color: #3498db; /* Color del borde al enfocar */
+}
+
+/* Estilo para el botón */
+.contactForm button {
+    background-color: #3498db; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efecto de transición para el hover */
+}
+
+.contactForm button:hover {
+    background-color: #2980b9; /* Color del botón al pasar el mouse */
+}
+
+/* Estilo para el footer */
+.footer {
+    position: absolute;
+    bottom: 20px; /* Espacio desde el fondo de la página */
+    right: 20px; /* Espacio desde el lado derecho */
+    text-align: right; /* Alinear texto a la derecha */
+    font-size: 14px; /* Tamaño de fuente del footer */
+}
+
+.footer a {
+    color: #3498db; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Subrayado al pasar el mouse */
+}

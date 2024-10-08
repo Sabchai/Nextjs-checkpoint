@@ -1,6 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+
+
+export default {
+  images: {
+    domains: ["i.blogs.es"] 
+  },
+  
 };
 
-export default nextConfig;
+
